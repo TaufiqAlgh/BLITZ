@@ -130,7 +130,9 @@ h3{
 }
 .originalPrice {
     text-decoration: line-through rgb(255, 0, 0);
+    -webkit-text-decoration: line-through rgb(255, 0, 0);
     text-decoration-thickness: 4px;
+    -webkit-text-decoration-thickness: 4px;
     color: rgb(255, 255, 255); /* Or any color you prefer */
     margin-right: 10px; /* Add some spacing between prices */
     font-size: 30px;

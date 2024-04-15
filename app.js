@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
 //Auto Scroll Lets Dive In
 document.addEventListener('DOMContentLoaded', function () {
     const autoScrollButton = document.querySelector('.auto-scroll');
-    const targetSection = document.querySelector('.Course');
+    const targetSection = document.querySelector('.row');
 
     autoScrollButton.addEventListener('click', function () {
         targetSection.scrollIntoView({
